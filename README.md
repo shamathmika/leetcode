@@ -10,6 +10,7 @@ Leetcode practice
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
 ## Two Pointers
 |  |
 | ------- |
@@ -41,6 +42,7 @@ Leetcode practice
 | ------- |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
 ## Greedy
 |  |
 | ------- |
@@ -53,4 +55,5 @@ Leetcode practice
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
+| [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
 <!---LeetCode Topics End-->
