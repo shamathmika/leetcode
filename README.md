@@ -11,4 +11,20 @@ Leetcode practice
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+## Hash Table
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
