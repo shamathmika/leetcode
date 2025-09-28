@@ -7,6 +7,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 ## Two Pointers
@@ -38,9 +39,18 @@ Leetcode practice
 ## Math
 |  |
 | ------- |
+| [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 ## Greedy
 |  |
 | ------- |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
