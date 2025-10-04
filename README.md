@@ -10,6 +10,7 @@ Leetcode practice
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
 | [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
 ## Two Pointers
 |  |
@@ -69,6 +70,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
 ## Binary Tree
 |  |
 | ------- |
