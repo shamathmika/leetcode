@@ -50,6 +50,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shamathmika/leetcode/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/shamathmika/leetcode/tree/master/0009-palindrome-number) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
