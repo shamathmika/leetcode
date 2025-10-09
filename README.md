@@ -6,6 +6,7 @@ Leetcode practice
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shamathmika/leetcode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
@@ -20,6 +21,7 @@ Leetcode practice
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shamathmika/leetcode/tree/master/0001-two-sum) |
 | [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 ## Linked List
