@@ -22,6 +22,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shamathmika/leetcode/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 ## Linked List
@@ -103,4 +104,12 @@ Leetcode practice
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/shamathmika/leetcode/tree/master/0002-add-two-numbers) |
+## String
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Sliding Window
+|  |
+| ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 <!---LeetCode Topics End-->
