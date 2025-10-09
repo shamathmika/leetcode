@@ -7,6 +7,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shamathmika/leetcode/tree/master/0001-two-sum) |
+| [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
@@ -73,6 +74,7 @@ Leetcode practice
 ## Binary Search Tree
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
 |  |
@@ -91,6 +93,7 @@ Leetcode practice
 ## Divide and Conquer
 |  |
 | ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 ## Geometry
 |  |
