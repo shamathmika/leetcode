@@ -10,6 +10,7 @@ Leetcode practice
 | [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
@@ -23,6 +24,7 @@ Leetcode practice
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shamathmika/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -57,6 +59,7 @@ Leetcode practice
 | ------- |
 | [0002-add-two-numbers](https://github.com/shamathmika/leetcode/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/shamathmika/leetcode/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
