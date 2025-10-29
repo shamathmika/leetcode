@@ -14,6 +14,7 @@ Leetcode practice
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
@@ -32,6 +33,7 @@ Leetcode practice
 | [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0146-lru-cache](https://github.com/shamathmika/leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 ## Linked List
 |  |
 | ------- |
@@ -52,6 +54,7 @@ Leetcode practice
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 ## Math
@@ -68,6 +71,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 ## Enumeration
 |  |
@@ -91,6 +95,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
@@ -129,4 +134,8 @@ Leetcode practice
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Counting
+|  |
+| ------- |
+| [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
 <!---LeetCode Topics End-->
