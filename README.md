@@ -15,6 +15,7 @@ Leetcode practice
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 | [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/shamathmika/leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
@@ -90,6 +91,7 @@ Leetcode practice
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/shamathmika/leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
 |  |
