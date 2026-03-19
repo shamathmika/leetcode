@@ -12,3 +12,6 @@ class Solution:
                     n -= 1
             
         return True if n <= 0 else False
+
+# TC: O(n)
+# SC: O(1)
