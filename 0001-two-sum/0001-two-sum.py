@@ -11,6 +11,7 @@ class Solution:
             if diff in m:
                 return [m[diff], i]
             m[nums[i]] = i
+        # TC: O(n), SC: O(n)
         
         # # Two pass map solution
         # # In first pass, create a map 
