@@ -1,5 +1,16 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        """
+        Brute force is to just iterate through the entire list in
+        2 loops and then add and see if it reaches the target.
+        Another option is to create a map with number: [list of
+        indices]. Then in second pass through nums[i], check if
+        target - that number exists in map and return the first
+        index of it.
+        Final option is to just create a map if number: index on the go. 
+        If target - that number is not in map, add it to map. If it is 
+        present, return the index
+        """
         # One pass map solution
         # We have an empty map. When we come across a number, check
         # if target - that number is present in the map, if so,
