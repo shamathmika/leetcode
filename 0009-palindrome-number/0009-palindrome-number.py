@@ -12,17 +12,35 @@ class Solution:
         we also need to check 12 == 123//10. Which it is, so return 
         true. Else return false
         """
-        # Brute Force - array and reverse
-        if x < 0:
+        # Mod - Divide and check
+        if x < 0 or (x % 10 == 0 and x != 0):
             return False
+
+        if x < 10: 
+            return True
+
+        n = 0
+        while x > n:
+            mod = x % 10
+            x = x // 10   
+            n = n * 10 + mod
+            if x == n or x // 10 == n:
+                return True
+
+        return False  
+        # TC: O(n), SC: O(1)
+
+        # # Brute Force - array and reverse
+        # if x < 0:
+        #     return False
             
-        n = list()
-        while x > 0:
-            n.append(x % 10)
-            x = x // 10
+        # n = list()
+        # while x > 0:
+        #     n.append(x % 10)
+        #     x = x // 10
         
-        return n == n[::-1]
-        # TC: O(n), SC: O(n)
+        # return n == n[::-1]
+        # # TC: O(n), SC: O(n)
 
         # # Brute Force - array and manual compare
         # if x < 0:
