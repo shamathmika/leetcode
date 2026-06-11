@@ -13,21 +13,22 @@ class Solution:
         true. Else return false
         """
         # Mod - Divide and check
+        # If the number is negative, then it is not a palindrome. Eg: -121
+        # If a number is ending with 0, it is not a palindrome. Eg: 10
+        # But it is a palindrome if it is 0
         if x < 0 or (x % 10 == 0 and x != 0):
             return False
 
-        if x < 10: 
-            return True
-
+        # Holds the reversed digits
         n = 0
-        while x > n:
-            mod = x % 10
-            x = x // 10   
-            n = n * 10 + mod
-            if x == n or x // 10 == n:
-                return True
-
-        return False  
+        while x > n: # Only need to check until x > n. 123 > 12
+            n = n * 10 + x % 10
+            x = x // 10 
+            
+        return x == n or n // 10 == x # If even digits, 12 = 12. If odd, 12 = 123 //10
+        # This return has to be outside for when x = 0. If we do the check inside the
+        # loop and return True when equal and then return False outside the loop, x = 0
+        # results in False.
         # TC: O(n), SC: O(1)
 
         # # Brute Force - array and reverse
