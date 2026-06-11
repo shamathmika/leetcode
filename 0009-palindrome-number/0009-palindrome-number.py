@@ -1,17 +1,23 @@
-class Solution(object):
-    def isPalindrome(self, x):
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
         """
-        :type x: int
-        :rtype: bool
+        Convert to string, start from left and right and return
+        true if all numbers same till l == r. Or try the same
+        with an array. With string, we can also do reverse and
+        check if its the same.
+        Let's say the number is 12321. Do mod 10, we get 1. Divide 
+        the number by 10, we get 1232. Check if 1 == 1232. No, so
+        get the mod again. We get 2. Multiply 1 by 10 and add 2.
+        Now we check 12 == 123. Since 3 is just an additional number
+        we also need to check 12 == 123//10. Which it is, so return 
+        true. Else return false
         """
-        xcopy = x
-        reverse = 0
-
-        if x < 0:
-            return False
-
-        while x != 0:
-            reverse = reverse * 10 + (x%10)
-            x = x//10
+        # Brute Force - string conversion
+        s = str(x)
+        l = len(s)
+        for i in range(l):
+            if s[i] != s[l-i-1]:
+                return False
+        return True
         
-        return xcopy == reverse
+        # TC: O(n), O(n)
