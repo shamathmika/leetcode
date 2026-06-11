@@ -12,13 +12,26 @@ class Solution:
         we also need to check 12 == 123//10. Which it is, so return 
         true. Else return false
         """
-        # Brute Force - array
-
-        # Brute Force - string conversion and reverse
-        s = str(x)
-        return s == s[::-1]
-
+        # Brute Force - array and manual compare
+        if x < 0:
+            return False
+            
+        n = list()
+        while x > 0:
+            n.append(x % 10)
+            x = x // 10
+        
+        l = len(n)
+        for i in range(l):
+            if n[i] != n[l-i-1]:
+                return False
+        return True
         # TC: O(n), SC: O(n)
+
+        # # Brute Force - string conversion and reverse
+        # s = str(x)
+        # return s == s[::-1]
+        # # TC: O(n), SC: O(n)
         
         # # Brute Force - string conversion and manual compare
         # s = str(x)
@@ -27,5 +40,4 @@ class Solution:
         #     if s[i] != s[l-i-1]:
         #         return False
         # return True
-        
         # # TC: O(n), O(n)
