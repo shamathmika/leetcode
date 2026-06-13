@@ -1,54 +1,50 @@
-class Solution(object):
-    def findMedianSortedArrays(self, nums1, nums2):
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         """
-        :type nums1: List[int]
-        :type nums2: List[int]
-        :rtype: float
+        Brute force we probably would iterate through both the array
+        fully, copy them to another array and find the median from
+        the new array. That would be O(tot) where tot is the number of
+        elements in both arrays. What we can also do instead (with the 
+        same TC) is instead of creating a new array, do merge sort on
+        the fly. So, two pointers on the two arrays. Define a function
+        which only returns the min value at that point. Run a loop and
+        call this function until the number just before median is reached.
+        This is so that if tot is even, we need two mins to be added and
+        divide by 2. For a tot of 3, run the loop once so that 2nd smallest
+        element can be returned. For tot = 4, run the loop once, so that
+        second and third smallest elements can be returned. So for odd
+        cases, run upto (l1 + l2) / 2. For even cases, run upto ((l1 + l2)
+        / 2) - 1.
         """
-        '''
-        a: 1 (2) 7 
-        b: (1) 4 6 8
-        [1 1 2] [4 6 7 8]
+        l1 = len(nums1)
+        l2 = len(nums2)
+        tot = l1 + l2
+        p1, p2 = 0,0
 
-        a: 1 2 (3) 4
-        b: 1 1 (2) 4 5 8 9 11
-        [1 1 1 2 2 3] [4 4 5 8 9 11]
-
-        We are essentially doing binary search on one of the arrays - particularly the smaller one (by length)
-        For simplicity, we set a and b as nums1 and nums2 and keep a as the smaller array
-        We need to find the left half and right half of the "imaginary merged list"
-        So what we do is find the first half. The answer will be the at the edge of the first half
-        '''
-        a, b = nums1, nums2
-        total = (len(a) + len(b))
-        half =  total // 2
-
-        if len(a) > len(b):
-            b, a = a, b
-        
-        l, r = 0, len(a) - 1 # Traverses the smaller array
-
-        while True:
-            i = (l + r) // 2 # Find mid point of a
-            j = half - i - 2 # whatever is remaining from the "half", pick that from b
-
-            # We only are worried about the boundaries of the left and right parts of a and b
-            aleft = a[i] if i >= 0 else float('-inf') # aleft is the rightmost element of the left part
-            aright = a[i+1] if i+1 < len(a) else float('inf') # aright is the leftmost element of the right part
-            bleft = b[j] if j >= 0 else float('-inf')
-            bright = b[j+1] if j+1 < len(b) else float('inf')
-
-            if aleft <= bright and bleft <= aright: # this means we found our first half of the "imaginary merged array"
-                # yayyy median
-                if total % 2 != 0:
-                    return min(aright, bright) # For odd, its the min of the right part of a or b
+        def getmin():
+            nonlocal p1, p2 # refers to the global p1, p2
+            if p1 < l1 and p2 < l2: # both arrays have values
+                if nums1[p1] < nums2[p2]:
+                    ans = nums1[p1]
+                    p1 += 1
                 else:
-                    return float((max(aleft, bleft) + min(aright, bright))) / 2 # If even, choose the max of the first half of the merged array and the min of the right part of the merged array
-            
-            if aleft > bright: # This means, we need to use more of b than a
-                r = i - 1
-            else: # This means we need to use more of a than b
-                l = i + 1
+                    ans = nums2[p2]
+                    p2 += 1
+            elif p2 == l2:
+                ans = nums1[p1]
+                p1 += 1
+            else:
+                ans = nums2[p2]
+                p2 += 1
+            return ans # this will have the current min of both the arrays
 
-# TC: O(log(min(m, n))
-# SC: O(1)
+        if tot % 2 != 0: # odd
+            for _ in range(tot // 2):
+                _ = getmin() # ignore the minimums until we reach median - 1 element
+            return getmin() # get the next minimum, itll be the median
+        else:
+            for _ in range((tot // 2) - 1):
+                _ = getmin() # ignore until median - 2 element
+            return (getmin() + getmin()) / 2
+        
+        # TC: O(n), SC: O(1)
