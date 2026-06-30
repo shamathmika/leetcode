@@ -21,4 +21,4 @@ class Solution:
             i += 1
         
         return ret
-        # TC: O(s), # SC: O(1)
+        # TC: O(1), SC: O(1)
