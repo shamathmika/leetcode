@@ -10,6 +10,7 @@ Leetcode practice
 | [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/shamathmika/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -142,4 +143,8 @@ Leetcode practice
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/shamathmika/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
