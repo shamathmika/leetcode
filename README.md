@@ -10,6 +10,7 @@ Leetcode practice
 | [0004-median-of-two-sorted-arrays](https://github.com/shamathmika/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/shamathmika/leetcode/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shamathmika/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/shamathmika/leetcode/tree/master/0204-count-primes) |
@@ -29,6 +30,7 @@ Leetcode practice
 | [0011-container-with-most-water](https://github.com/shamathmika/leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shamathmika/leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0027-remove-element](https://github.com/shamathmika/leetcode/tree/master/0027-remove-element) |
+| [0088-merge-sorted-array](https://github.com/shamathmika/leetcode/tree/master/0088-merge-sorted-array) |
 | [0189-rotate-array](https://github.com/shamathmika/leetcode/tree/master/0189-rotate-array) |
 ## Hash Table
 |  |
@@ -57,6 +59,7 @@ Leetcode practice
 ## Sorting
 |  |
 | ------- |
+| [0088-merge-sorted-array](https://github.com/shamathmika/leetcode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shamathmika/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/shamathmika/leetcode/tree/master/0217-contains-duplicate) |
 | [0621-task-scheduler](https://github.com/shamathmika/leetcode/tree/master/0621-task-scheduler) |
