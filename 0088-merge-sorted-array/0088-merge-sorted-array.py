@@ -11,8 +11,11 @@ class Solution:
         or vice versa. But I think this is the same case as 1
         3. Only nums1 has values or vice versa
         4. Both are empty - Not possible as per conditions
-        What we can do is, move all the elements in nums1 to the end of nums1 so
-        it becomes [1, 2, 3, 1, 2, 3]. Then start at nums1[n] (n is nums2's size)
+        Brute force would be to just merge the two lists (copy the nums2 elements
+        in place of 0 in nums1) and then sort with nums1.sort(). TC would be
+        O(n + (n+m)log(n+m))
+        What else we can do is, move all the elements in nums1 to the end of nums1
+        so it becomes [1, 2, 3, 1, 2, 3]. Then start at nums1[n] (n is nums2's size)
         Compare and copy the elements to nums1 in its right position. Pass 1 we
         would have [1, 2, 3, 1, 2, 3]. Pass 2 we would have [1, 2, 3, 1, 2, 3].
         Pass 3 we would have [1, 2, 2, 1, 2, 3]. Pass 4 we would have [1, 2, 2, 
