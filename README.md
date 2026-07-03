@@ -142,6 +142,7 @@ Leetcode practice
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shamathmika/leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0013-roman-to-integer](https://github.com/shamathmika/leetcode/tree/master/0013-roman-to-integer) |
+| [0020-valid-parentheses](https://github.com/shamathmika/leetcode/tree/master/0020-valid-parentheses) |
 ## Sliding Window
 |  |
 | ------- |
@@ -158,4 +159,8 @@ Leetcode practice
 |  |
 | ------- |
 | [1929-concatenation-of-array](https://github.com/shamathmika/leetcode/tree/master/1929-concatenation-of-array) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/shamathmika/leetcode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
