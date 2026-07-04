@@ -13,19 +13,31 @@ class Solution:
         The optimized way would be to sort the array first so we have the smallest word in the
         beginning since the common prefix can't be longer than that. 
         """
-        # Horizontal Scanning
+        # Vertical Scanning
         if len(strs) == 0:
             return ""
-
-        prefix = strs[0]
-        for i in range(1, len(strs)):
-            while strs[i].find(prefix) != 0: # If not found or not found at position 1
-                if prefix == "":
-                    return ""
-                prefix = prefix[:-1]
         
-        return prefix
-        # TC: O(nm), SC: O(1)
+        for i in range(len(strs[0])):
+            c = strs[0][i] # Get the letter in the first word in each iteration
+            for j in range(1, len(strs)):
+                if i == len(strs[j]) or strs[j][i] != c: # If i == len(strs[j]), then i cant go for another iteration. If the letter is not c also, return the first word until i
+                    return strs[0][:i]
+        return strs[0] # If it reached here, first word is the prefix
+        # TC: O(mn), SC: O(1)
+
+        # # Horizontal Scanning
+        # if len(strs) == 0:
+        #     return ""
+
+        # prefix = strs[0]
+        # for i in range(1, len(strs)):
+        #     while strs[i].find(prefix) != 0: # If not found or not found at position 1
+        #         if prefix == "":
+        #             return ""
+        #         prefix = prefix[:-1]
+        
+        # return prefix
+        # # TC: O(nm), SC: O(1)
         
         # # Brute Force - WRONG
         # strs.sort()
