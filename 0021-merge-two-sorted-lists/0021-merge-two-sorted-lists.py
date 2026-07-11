@@ -13,7 +13,6 @@ class Solution:
         move p1 to p1.next. Do these only until null. If either of the lists reaches null, then the other
         list has the remaining values
         """
-        head = ListNode(-1, None)
         p1, p2 = list1, list2
 
         if not p1:
@@ -21,22 +20,9 @@ class Solution:
         if not p2:
             return p1
 
-        if p1.val <= p2.val:
-            head.next = p1
-            p1 = p1.next
-        else:
-            head.next = p2
-            p2 = p2.next
-
-        run = head.next
+        run = head = ListNode(-1, None)
         
-        while p1 or p2:
-            if not p2:
-                run.next = p1
-                break
-            if not p1:
-                run.next = p2
-                break
+        while p1 and p2:
             if p1.val <= p2.val:
                 run.next = p1
                 p1 = p1.next
@@ -45,6 +31,8 @@ class Solution:
                 p2 = p2.next
             
             run = run.next
+
+        run.next = p1 if p1 else p2
 
         return head.next
         # TC: O(N), SC:O(1)
