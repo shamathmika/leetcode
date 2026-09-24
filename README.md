@@ -28,6 +28,7 @@ Leetcode practice
 | [1127-last-stone-weight](https://github.com/shamathmika/leetcode/tree/master/1127-last-stone-weight) |
 | [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
 | [1929-concatenation-of-array](https://github.com/shamathmika/leetcode/tree/master/1929-concatenation-of-array) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/shamathmika/leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Two Pointers
 |  |
 | ------- |
@@ -83,6 +84,7 @@ Leetcode practice
 | [1014-k-closest-points-to-origin](https://github.com/shamathmika/leetcode/tree/master/1014-k-closest-points-to-origin) |
 | [1018-largest-perimeter-triangle](https://github.com/shamathmika/leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1372-check-if-it-is-a-good-array](https://github.com/shamathmika/leetcode/tree/master/1372-check-if-it-is-a-good-array) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/shamathmika/leetcode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 ## Greedy
 |  |
 | ------- |
