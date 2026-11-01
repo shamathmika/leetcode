@@ -104,6 +104,7 @@ Leetcode practice
 ## Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/shamathmika/leetcode/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Binary Search Tree
 |  |
@@ -123,6 +124,7 @@ Leetcode practice
 ## Binary Tree
 |  |
 | ------- |
+| [0226-invert-binary-tree](https://github.com/shamathmika/leetcode/tree/master/0226-invert-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shamathmika/leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Data Stream
 |  |
@@ -180,4 +182,12 @@ Leetcode practice
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/shamathmika/leetcode/tree/master/0014-longest-common-prefix) |
+## Depth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/shamathmika/leetcode/tree/master/0226-invert-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0226-invert-binary-tree](https://github.com/shamathmika/leetcode/tree/master/0226-invert-binary-tree) |
 <!---LeetCode Topics End-->
